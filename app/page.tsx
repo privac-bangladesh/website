@@ -15,7 +15,7 @@ export default function Home() {
 
       {/* Screen one */}
       <div className="flex w-full flex-col md:flex-row lg:w-10/12 xl:w-8/12 justify-evenly m-auto my-24 gap-4 sm:gap-0">
-      
+
         <div className="grid place-content-center">
           <Image
             src="/images/headbg.svg"
@@ -32,8 +32,8 @@ export default function Home() {
             width={190}
             height={190}
           />
-          <h1 className="text-5xl font-bold text-white">fights</h1>
-          <h1 className="text-5xl font-bold text-white">cybercrimes.</h1>
+          <h1 className="text-5xl font-bold text-neutral-200">fights</h1>
+          <h1 className="text-5xl font-bold text-neutral-200">cybercrimes.</h1>
         </div>
 
       </div>
@@ -71,10 +71,10 @@ export default function Home() {
               />
             </div>
             <div className="md:w-1/2">
-              <h1 className="text-2xl font-bold text-neutral-50">and only</h1>
-              <h1 className="text-8xl font-bold text-neutral-50">7% </h1>
-              <h1 className="text-2xl font-bold text-neutral-50">of these cybercrime victims</h1>
-              <h1 className="text-2xl font-bold text-neutral-50">receive their desired help.</h1>
+              <h1 className="text-2xl font-bold text-neutral-200">and only</h1>
+              <h1 className="text-8xl font-bold text-neutral-200">7% </h1>
+              <h1 className="text-2xl font-bold text-neutral-200">of these cybercrime victims</h1>
+              <h1 className="text-2xl font-bold text-neutral-200">receive their desired help.</h1>
             </div>
 
           </div>
@@ -89,11 +89,11 @@ export default function Home() {
           width={200}
           height={200}
         />
-        <h1 className="text-3xl text-rose-900 font-semibold m-auto md:mx-0 w-10/12 md:w-8/12 xl:w-5/12">We are here to change that.</h1>
+        <h1 className="text-3xl text-rose-900 font-semibold m-auto md:mx-0 w-10/12 md:w-8/12 lg:w-5/12">We are here to change that.</h1>
       </div>
 
-      
-      <div className="text-black bg-white">
+
+      <div className="text-neutral-900 bg-white">
         <h1>&nbsp;</h1>
         <Sections
           title="About us"
@@ -108,21 +108,21 @@ export default function Home() {
         <h1>&nbsp;</h1>
       </div>
 
-      <div className="flex text-white flex-col gap-14 md:flex-row lg:w-10/12 lg:m-auto xl:w-8/12 py-16">
+      <div className="flex text-neutral-200 flex-col gap-14 md:flex-row lg:w-10/12 lg:m-auto xl:w-8/12 py-16">
         <NumberStats text="Successful cases" number={300} plus={true} />
         <NumberStats text="Trained responders" number={10} plus={false} />
         <NumberStats text="Partnering organizations" number={20} plus={true} />
       </div>
       {/*
-      <div className=" text-white w-10/12 m-auto xl:w-8/12 my-32">
+      <div className=" text-neutral-200 w-10/12 m-auto xl:w-8/12 my-32">
         <h1>Chart goes here</h1>
       </div>*/ }
-      
 
-      <div className="my-24 text-rose-800 ">
-      <div className="flex text-white font-bold text-3xl flex-col gap-14 md:flex-row lg:w-10/12 lg:m-auto xl:w-8/12 py-16">
-        <h1>Testimonials</h1>
-      </div>
+
+      <div className="my-16 text-rose-500 ">
+        <div className="flex text-neutral-200 font-bold text-3xl flex-col gap-14 md:flex-row lg:w-10/12 lg:m-auto xl:w-8/12">
+          <h1>Testimonials</h1>
+        </div>
         <Quotes
           text="
           ' The explicit photos and video that [my abuser took] without my consent 
@@ -137,7 +137,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="w-10/12 m-auto xl:w-8/12 text-white">
+      <div className="w-10/12 m-auto xl:w-8/12 text-neutral-200">
         <h1 className="text-5xl font-bold my-6">Be a hero with PrivaC</h1>
         <Image
           src="/images/law.png"
@@ -149,9 +149,9 @@ export default function Home() {
           <h1 className="text-2xl text-rose-800 font-semibold md:w-1/2 xl:text-4xl">Join our growing network of psychologists and lawyers</h1>
           <div className="my-4 md:w-1/2 md:my-0">
             <h1>
-            At PrivaC, we are building a community of compassionate and skilled professionals 
-            who understand the challenges faced by cybercrime victims. By joining our network, 
-            you will have the opportunity to provide crucial support, guidance, and expertise to those in need.
+              At PrivaC, we are building a community of compassionate and skilled professionals
+              who understand the challenges faced by cybercrime victims. By joining our network,
+              you will have the opportunity to provide crucial support, guidance, and expertise to those in need.
             </h1>
             <Link href={"#"}>
               <h1 className="text-rose-800 text-2xl font-bold">Learn more</h1>
@@ -200,7 +200,7 @@ export default function Home() {
           linkedin={"https://www.linkedin.com/in/danielchungg/"}
           github={"https://github.com/danielchungdev"}
         />
-                <Portraits
+        <Portraits
           image={"justinzach"}
           name={"Karthik Leiju"}
           description={"Full Stack Developer"}
@@ -213,7 +213,7 @@ export default function Home() {
           linkedin={"https://www.linkedin.com/in/danielchungg/"}
           github={"https://github.com/danielchungdev"}
         />
-                        <Portraits
+        <Portraits
           image={"justinzach"}
           name={"Afia Joarder"}
           description={"Response Team Coordinator"}
@@ -238,7 +238,7 @@ export default function Home() {
 				">
         <h1 className="text-blue-200">Current width</h1>
       </div> */}
-      
+
       <div className="mt-32">
         <Footer />
       </div>
