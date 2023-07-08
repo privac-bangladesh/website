@@ -52,7 +52,7 @@ export default function Home() {
             <div className="md:w-1/2">
               {/* Image needs to be better. just place holder.*/}
               <Image
-                src="/images/globe.png"
+                src="/images/law.svg"
                 width={300}
                 height={200}
                 alt="Planet"
