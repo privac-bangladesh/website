@@ -9,14 +9,14 @@ export const Footer = () => {
             <div className="w-10/12 mx-auto mt-16">
                 <ArrowUpOnSquareIcon className="h-16 w-16 text-neutral-50" />
                 <div className='mb-16 mt-8 md:flex'>
-                    <h1 className='text-neutral-50 text-3xl font-bold md:w-1/3'>Share our story</h1>
+                    <h1 className='text-neutral-50 text-3xl font-bold md:w-1/3'>Share your story</h1>
                     <div className=' md:w-2/3'>
-                        <h1 className='text-neutral-50 my-6 text-lg font-semibold md:mb-6 md:mt-0'>If you or someone you know has been affected by cybercrimes,</h1>
-                        <h1 className='text-neutral-50 md:w-10/12'>In aliquam orci faucibus leo quam sed. Tempor placerat in scelerisque sit vitae nullam sagittis. Egestas tellus aenean massa tempor commodo molestie consequat. Aenean tristique accumsan et nisi nunc massa quis augue risus. Etiam elit ut ut tellus dictum ut.</h1>
+                        <h1 className='text-neutral-50 my-6 text-lg font-semibold md:mb-6 md:mt-0'>Know someone affected by cybercrime? We are here to help</h1>
+                        <h1 className='text-neutral-50 md:w-10/12'>Reach out to us if you or your loved one has been a victim of cybercrime. We’ll connect you to the legal and psychological support that you may need.</h1>
                     </div>
                 </div>
             </div>
-            <div className="bg-neutral-950 rounded-t-3xl px-5 pt-8 text-neutral-50 mt-2">
+            <div className="bg-rose-950 rounded-t-3xl px-5 pt-8 text-neutral-50 mt-2">
                 <div className='w-10/12 mx-auto md:flex md:justify-between'>
 
                     <div className='flex flex-col gap-4 mb-6'>
