@@ -11,8 +11,8 @@ export const Footer = () => {
                 <div className='mb-16 mt-8 md:flex md:gap-2'>
                     <h1 className='text-neutral-200 text-3xl font-bold md:w-1/3'>Share your story</h1>
                     <div className=' md:w-2/3'>
-                        <h1 className='text-neutral-200 my-6 text-lg font-semibold md:mb-6 md:mt-0'>Know someone affected by cybercrime? We are here to help</h1>
-                        <h1 className='text-neutral-200 md:w-10/12'>Reach out to us if you or your loved one has been a victim of cybercrime. We’ll connect you to the legal and psychological support that you may need.</h1>
+                        <h1 className='text-neutral-200 my-6 text-lg font-semibold md:mb-6 md:mt-0'>Know someone affected by cybercrime? We want to help. </h1>
+                        <h1 className='text-neutral-200 md:w-10/12'>Reach out to us if you or your loved one has been a victim of cybercrime. We would like to take your input on building the best in-app experience for cybercrime victims to get connected to the help they need.</h1>
                     </div>
                 </div>
             </div>

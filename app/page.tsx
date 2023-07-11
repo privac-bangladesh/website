@@ -152,24 +152,27 @@ export default function Home() {
               At PrivaC, we are building a community of compassionate and skilled professionals
               who understand the challenges faced by cybercrime victims. By joining our network,
               you will have the opportunity to provide crucial support, guidance, and expertise to those in need.
+              <br></br>
             </h1>
             <Link href={"#"}>
               <h1 className="text-rose-800 text-2xl font-bold">Learn more</h1>
             </Link>
+            <br></br>
+            <hr></hr>
           </div>
         </div>
       </div>
 
-
+{/* 
       <div className="w-10/12 m-auto xl:w-8/12 my-32">
         <h1 className="font-semibold text-rose-800 text-lg mb-4">Featured On:</h1>
         <Image
           src="/images/featured.png"
           width={2000}
           height={500}
-          alt="Places featured."
+          alt="Places featured." COMMENTED OUT FOR NOW UNTIL WE CAN GET ALL THE LINKS AND LOGOS TO PLACES WE BEEN FEATURED
         />
-      </div>
+      </div> */}
       <div className="w-10/12 m-auto my-12 lg:w-8/12">
         <h1 className="font-semibold text-rose-800 text-lg mb-4 w-10/12  ">Meet the Team</h1>
       </div>
@@ -178,20 +181,20 @@ export default function Home() {
           image={"nuzhatminhaz"}
           name={"Nuzhat Minhaz"}
           description={"Co-Founder / CEO"}
-          linkedin={"https://www.linkedin.com/in/danielchungg/"}
-          github={"https://github.com/danielchungdev"}
+          linkedin={"https://www.linkedin.com/in/nuzhatminhaz/"}
+          github={"https://github.com/nuzhat-minhaz/"}
         />
         <Portraits
-          image={"danielchung"}
+          image={"shayaan"}
           name={"Shayaan Husain"}
           description={"Co-Founder / Business Strategy Development"}
-          linkedin={"https://www.linkedin.com/in/danielchungg/"}
+          linkedin={"https://www.linkedin.com/in/shayaanhusain/"}
         />
         <Portraits
           image={"justinzach"}
           name={"Justin Costa"}
           description={"Project Lead"}
-          linkedin={"https://www.linkedin.com/in/danielchungg/"}
+          linkedin={"https://www.linkedin.com/in/justinzachariuscosta/"}
         />
         <Portraits
           image={"danielchung"}
@@ -201,30 +204,28 @@ export default function Home() {
           github={"https://github.com/danielchungdev"}
         />
         <Portraits
-          image={"justinzach"}
+          image={"karthik"}
           name={"Karthik Leiju"}
           description={"Full Stack Developer"}
-          linkedin={"https://www.linkedin.com/in/danielchungg/"}
+          linkedin={"https://www.linkedin.com/in/karthikleiju/"}
         />
         <Portraits
-          image={"danielchung"}
+          image={"daechan"}
           name={"Daechan Kim"}
           description={"UIUX Designer"}
-          linkedin={"https://www.linkedin.com/in/danielchungg/"}
-          github={"https://github.com/danielchungdev"}
+          linkedin={"https://www.linkedin.com/in/daechankimdesign/"}
         />
         <Portraits
-          image={"justinzach"}
+          image={"afia"}
           name={"Afia Joarder"}
           description={"Response Team Coordinator"}
-          linkedin={"https://www.linkedin.com/in/danielchungg/"}
+          linkedin={"https://www.linkedin.com/in/afia-joarder-ms-2528abb1/"}
         />
         <Portraits
-          image={"danielchung"}
+          image={"mashiyat"}
           name={"Mashiyat Nayeem"}
           description={"Content Creator / Technical Writer"}
-          linkedin={"https://www.linkedin.com/in/danielchungg/"}
-          github={"https://github.com/danielchungdev"}
+          linkedin={"https://www.linkedin.com/in/mashiyat-nayeem/"}
         />
       </div>
 
