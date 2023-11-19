@@ -54,9 +54,8 @@ export const Footer = () => {
                             alt="PrivaC logo"
                         />
                         <div className='flex my-4 w-1/3 md:w-full gap-4'>
-                            <FaTwitterSquare className='w-7 h-7' />
-                            <FaLinkedin className='w-7 h-7' />
-                            <FaFacebookSquare className='w-7 h-7' />
+                            <Link href={"https://www.linkedin.com/company/projectprivac"}><FaLinkedin className='w-7 h-7' /></Link>
+                            <Link href={"https://www.facebook.com/projectprivac/"}><FaFacebookSquare className='w-7 h-7' /></Link>
                         </div>
                     </div>
 
