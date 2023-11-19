@@ -96,17 +96,23 @@ export default function Home() {
       <div className="text-neutral-900 bg-white">
         <h1>&nbsp;</h1>
         <Sections
-          title="About us"
-          boldText="Bangladesh's 1st cybercrime countermeasure services organization"
+          title="About Us"
+          boldText="Bangladesh's 1st Cybersafety Startup"
           regularText="At PrivaC, we are committed to helping you find the necessary legal and psychological support that you deserve. 
-          You’re not alone, we’ll be with you at every step of the way. PrivaC was first presented by Nuzhat Minhaz at Rochester Institute of Technology's Women in Computing Hackathon in 2019 where it won 
-          JP Morgan Chase & Co's Best Hack for Social Good Award; and that's how we began the conversation on making cybercrime countermeasure accessible to all in Bangladesh and other developing nations in the near future.
+          You’re not alone, we’ll be with you at every step of the way. 
           "
         />
+
         <Sections
-          title="Our mission"
-          boldText="Creating a safe cyber-space for all"
+          title="Our Mission"
+          boldText="Creating a Safe Cyberspace For All"
           regularText="PrivaC was created with one goal in mind: to help people overcome the challenges of the digital world by making professional resources accessible to all."
+        />
+                        <Sections
+          title="How It All Started"
+          boldText="Takes 24 Hours To Begin"
+          regularText="At Rochester Institute of Technology's Women in Computing Hackathon in 2019, Nuzhat Minhaz presented the first prototype of PrivaC. 24 hours later, PrivaC won 
+          JP Morgan Chase & Co's Best Hack for Social Good Award; and that's how we began the conversation on making cybercrime countermeasure accessible to all Bangladeshis and other developing nations in the near future."
         />
         <h1>&nbsp;</h1>
       </div>
