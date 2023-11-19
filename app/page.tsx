@@ -98,7 +98,10 @@ export default function Home() {
         <Sections
           title="About us"
           boldText="Bangladesh's 1st cybercrime countermeasure services organization"
-          regularText="At PrivaC, we are committed to helping you find the necessary legal and psychological support that you deserve. You’re not alone, we’ll be with you at every step of the way."
+          regularText="At PrivaC, we are committed to helping you find the necessary legal and psychological support that you deserve. 
+          You’re not alone, we’ll be with you at every step of the way. PrivaC was first presented by Nuzhat Minhaz at Rochester Institute of Technology's Women in Computing Hackathon in 2019 where it won 
+          JP Morgan Chase & Co's Best Hack for Social Good Award; and that's how we began the conversation on making cybercrime countermeasure accessible to all in Bangladesh and other developing nations in the near future.
+          "
         />
         <Sections
           title="Our mission"
@@ -109,9 +112,9 @@ export default function Home() {
       </div>
 
       <div className="flex text-neutral-200 flex-col gap-14 md:flex-row lg:w-10/12 lg:m-auto xl:w-8/12 py-16">
-        <NumberStats text="Successful cases" number={300} plus={true} />
-        <NumberStats text="Trained responders" number={10} plus={false} />
-        <NumberStats text="Partnering organizations" number={20} plus={true} />
+        <NumberStats text="Successful Cases" number={300} plus={true} />
+        <NumberStats text="Trained Responders" number={10} plus={false} />
+        <NumberStats text="Verified Professionals" number={20} plus={true} />
       </div>
       {/*
       <div className=" text-neutral-200 w-10/12 m-auto xl:w-8/12 my-32">
@@ -119,8 +122,8 @@ export default function Home() {
       </div>*/ }
 
 
-      <div className="my-16 text-rose-500 ">
-        <div className="flex text-neutral-200 font-bold text-3xl flex-col gap-14 md:flex-row lg:w-10/12 lg:m-auto xl:w-8/12">
+      <div className="my-16 text-rose-500">
+        <div className="flex text-neutral-200 font-bold text-3xl flex-col gap-14 w-10/12 m-auto md:flex-row lg:w-10/12 lg:m-auto xl:w-8/12">
           <h1>Testimonials</h1>
         </div>
         <Quotes
@@ -146,16 +149,18 @@ export default function Home() {
           alt="Be a hero with PrivaC"
         />
         <div className="mt-6 md:flex xl:w-10/12 xl:mx-auto mb-24">
-          <h1 className="text-2xl text-rose-800 font-semibold md:w-1/2 xl:text-4xl">Join our growing network of psychologists and lawyers</h1>
+          <h1 className="text-2xl text-rose-800 font-semibold md:w-1/2 xl:text-4xl">Join Our Growing Network of Lawyers, Psychologists, and many other Verified Professionals:</h1>
           <div className="my-4 md:w-1/2 md:my-0">
             <h1>
               At PrivaC, we are building a community of compassionate and skilled professionals
               who understand the challenges faced by cybercrime victims. By joining our network,
               you will have the opportunity to provide crucial support, guidance, and expertise to those in need.
-              <br></br>
+              <p>&nbsp;</p>
+              The link below will lead you to a form that allow you to stay connected with you after you answer a few questions that will help us build the best platform for you to assist cybercrime victims.
+              <p>&nbsp;</p>
             </h1>
-            <Link href={"#"}>
-              <h1 className="text-rose-800 text-2xl font-bold">Learn more</h1>
+            <Link href={"https://forms.gle/nPJN3sQKSPoVRL8c6"}>
+              <h1 className="text-rose-600 text-2xl font-bold">Take Survey and Join Network Here</h1>
             </Link>
             <br></br>
             <hr></hr>
