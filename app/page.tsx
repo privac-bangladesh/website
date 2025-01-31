@@ -134,13 +134,13 @@ export default function Home() {
         </div>
         <Quotes
           text="
-          ' The explicit photos and video that [my abuser took] without my consent 
+          ' The explicit photos and videos that [my abuser took] without my consent 
             were uploaded to multiple adult content websites as revenge. 
             My friends avoided me. Strangers blackmailed me...
             I survived with the trauma, alone and helpless for 1.5 years...
             Later, I shared my problem with PrivaC, who helped me to overcome my fear and insecurities to take legal action. 
             Sakib [a trained PrivaC responder] even accompanied me to meet the cyber crime support unit and collect necessary evidence.
-            The abuser has been imprisoned since November 2019...PrivaC has been an immense help through everything. I'm really thankful to the Almighty Allah for getting justice. '
+            The abuser has been imprisoned since November 2019...PrivaC has been an immense help through everything. '
           "
           author="Saika R."
         />
