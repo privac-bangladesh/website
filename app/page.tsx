@@ -196,10 +196,10 @@ export default function Home() {
           github={"https://github.com/nuzhat-minhaz/"}
         />
         <Portraits
-          image={"shayaan"}
-          name={"Shayaan Husain"}
-          description={"Co-Founder / Business Strategy Development"}
-          linkedin={"https://www.linkedin.com/in/shayaanhusain/"}
+          image={"rakin"}
+          name={"Rakin Bin Riza"}
+          description={"Lead Architect"}
+          linkedin={"https://www.linkedin.com/in/rakin-riza//"}
         />
         <Portraits
           image={"justinzach"}
@@ -215,10 +215,10 @@ export default function Home() {
           github={"https://github.com/danielchungdev"}
         />
         <Portraits
-          image={"karthik"}
-          name={"Karthik Leiju"}
-          description={"Full Stack Developer"}
-          linkedin={"https://www.linkedin.com/in/karthikleiju/"}
+          image={"shimanto"}
+          name={"Shimanto Bhowmik"}
+          description={"Backend Developer"}
+          linkedin={"https://www.linkedin.com/in/shimantobhowmik/"}
         />
         <Portraits
           image={"daechan"}
